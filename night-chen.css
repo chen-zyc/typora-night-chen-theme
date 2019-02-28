@@ -847,7 +847,7 @@ h2, [mdlike='h2'],
 h3, [mdlike='h1'],
 h4, [mdlike='h1'],
 h5, [mdlike='h1'],
-h6, [mdlike='h1'], {
+h6, [mdlike='h1'] {
     font-family: "Source Sans Pro", Menlo;
     font-weight: bold;
     color: #FF8162;
@@ -926,6 +926,12 @@ mark {
     background-color: #ff9a3c;
     padding: 0.2em;
 }
+
+b, strong {
+    color: red;
+}
+
+
 
 /* 列表 */
 ul[cid] {
